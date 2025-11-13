@@ -1,54 +1,47 @@
-# Ambientes virtuais
+# Ambientes virtuais e dependências
+meu_ambiente_dados/
+.meu_ambiente_dados/
 venv/
 env/
-meu_ambiente_dados/
 .venv/
 .env
 
-# Arquivos do Python
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
+
+# Jupyter / Notebooks
 .ipynb_checkpoints/
-*.ipynb
+# Descomente a linha abaixo se NÃO quiser versionar notebooks:
+# *.ipynb
 
-# Variáveis de ambiente
-.env
-.env.local
-.env.*.local
+# Dados (nunca versione dados brutos ou processados)
+data/raw/**
+data/processed/**
+!data/README.md
 
-# Logs e saídas
+# Logs, saídas e artefatos temporários
 logs/
 *.log
 output/
-data/processed/
-data/final/
+build/
+dist/
+*.egg-info/
 
-# Dados brutos (opcional: ignore tudo ou só os grandes)
-data/raw/**
-!data/raw/README.md
-
-# Notebooks com saída (opcional: você pode querer versionar a lógica, não os outputs)
-*.ipynb
-!notebooks/template.ipynb
-
-# Sistemas operacionais
-.DS_Store
-Thumbs.db
+# Scripts de setup local (específicos da sua máquina)
+setup_dados_wsl.sh
 
 # IDEs e editores
 .vscode/
 .idea/
 *.swp
 *.swo
+.DS_Store
+Thumbs.db
 
-# Arquivos de build/dist
-build/
-dist/
-*.egg-info/
-
-# DVC (se usar)
+# Sistemas de versionamento de dados (se usar no futuro)
 .dvc/cache/
 .dvc/tmp/
