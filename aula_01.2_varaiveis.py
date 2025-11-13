@@ -20,5 +20,6 @@ print(resultado)
 resultado = 10 * 2
 print(resultado)
 
+# neste caso, temos um exemplo de atribuição acumulativa da variável
 resultado = resultado + 10
 print(resultado)
