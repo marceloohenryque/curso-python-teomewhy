@@ -1,3 +1,4 @@
+# Equivalente ao arquivo idades.py da aula
 # Aprendendo sobre Métodos de Listas
 # Métodos são ações que um objeto Python pode ter.
 

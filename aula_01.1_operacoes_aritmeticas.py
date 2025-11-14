@@ -1,3 +1,4 @@
+# Equivalente ao arquivo calculadora da aula
 # Aprendendo sobre operações aritméticas
 
 #%%

@@ -1,4 +1,5 @@
-# Aprendeendo sobre laço de repetição While
+# Equivalente ao arquivo tabuada.py da aula
+# Aprendendo sobre laço de repetição While
 # Usamos o while quando necessita de comparação lógica repetida
 
 #%%
