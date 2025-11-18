@@ -4,22 +4,23 @@
 
 idades = [17, 32, 56, 87]
 
-#%%
+# %%
 # Método de adição de elementos
-idades.append(32) # Este método modifica a própria lista, não cria uma nova lista.
-                    # As listas são objetos mutáveis (modificáveis)
+idades.append(32)  # Este método modifica a própria lista, não cria uma
+# nova lista.
+# As listas são objetos mutáveis (modificáveis)
 print(idades)
 
-#%%
+# %%
 # Como fazer uma lista vazia
 novas_idades = []
 
 while True:
     idade = input("Entre com a idade: ")
-    
+
     if idade == "":
         break
-    
+
     novas_idades.append(int(idade))
 
 quantidade = len(novas_idades)
